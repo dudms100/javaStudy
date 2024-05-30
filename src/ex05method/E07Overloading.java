@@ -8,10 +8,10 @@ public class E07Overloading {
 		System.out.println("군번:"+milNum);
 	}
 	
-//	static void person(int juminNum) {
-//		System.out.println("미필");
-//		System.out.println("주민번호:"+juminNum);
-//	}
+	static void person(int juminNum) {
+		System.out.println("미필");
+		System.out.println("주민번호:"+juminNum);
+	}
 //	
 //	static void person(int juminNum) {
 //		System.out.println("미필");
@@ -23,7 +23,7 @@ public class E07Overloading {
 		// TODO Auto-generated method stub
 		person(123456, 7890123);
 		System.out.println("================");
-//		person(987654);
+		person(987654);
 
 	}
 
