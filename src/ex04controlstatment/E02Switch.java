@@ -87,7 +87,7 @@ public class E02Switch {
                 System.out.println("f");
                 break;
         }
-
+        scanner.close();
 		
 		
 		

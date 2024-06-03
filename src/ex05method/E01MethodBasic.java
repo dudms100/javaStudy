@@ -14,6 +14,7 @@ public class E01MethodBasic {
 		Scanner scanner = new Scanner(System.in);
 		String name = scanner.nextLine();
 		namePrint(name);		
+		scanner.close();
 	}
 	
 	public static void namePrint(String n) {

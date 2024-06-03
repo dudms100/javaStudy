@@ -55,6 +55,7 @@ public class E04DoWhile {
 			exitCode = System.in.read();
 			
 		}while(!(exitCode=='x' || exitCode=='X'));
+		scanner.close();
 	}
 
 }
