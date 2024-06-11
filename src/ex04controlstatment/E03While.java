@@ -33,7 +33,7 @@ public class E03While {
 		while(dan<=9) {
 			int su =1;
 			while(su<=9) {
-				System.out.printf("%-2d*%-2d=%2d", dan, su, (dan*su));
+				System.out.printf("%-2d*%-2d=%2d ", dan, su, (dan*su));
 				System.out.print("");
 				su++;
 			}
